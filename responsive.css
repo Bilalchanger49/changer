@@ -18,7 +18,7 @@
     }
     nav{
         height: 170px;
-        width: 100%;
+        width: 630px;
         }
     .content{
         display: flex;
@@ -26,12 +26,14 @@
         flex-direction: column;
     }
     .Shop_link a{
+        
        font-size: 50px;
     }
     .cart_link{
         align-self: center;
     }
     .cart_link img{
+
         align-content: center; 
         height: 70px;
      }
@@ -98,4 +100,12 @@
         font-size: 25px;
         font-weight: bolder;
     }
+}
+
+
+@media screen and (max-width: 400px){
+    nav{
+        height: 170px;
+        width: 430px;
+        }
 }
