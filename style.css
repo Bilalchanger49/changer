@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(19, 19, 19);
+    height: 12vh;
+    color: white ;
+    
+}
+.content{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+
+}
+.Shop_link{
+    margin-right: 20px;
+    align-self: center; 
+   
+}
+
+.Shop_link a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.cart_link img{
+    height: 50px;
+    margin-top: 10px;
+    color: white;
+    align-content: center; 
+}
+.cart_link img:hover{
+    cursor: pointer;
+}
+
+.shop_heading{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0vh;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+.item{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item:hover{
+    cursor: pointer;
+}
+.item img{
+    height: 40vh;
+}
+
+.item .name{
+    margin: 10px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.item .price{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.item .btn{
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    padding: 5px 10px;
+    border-radius: 15px;
+ 
+}
+
+.item .btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(19, 19, 19);
+}
+
+
+
+
+
+
+
+/* hello */
+
+
+
+
+.cart_heading{
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0vh;
+}
+.container1{
+  
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+}
+.item1{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 35vw;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+.item1 img{
+    height: 20vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.discription{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.name{
+    font-weight: bolder;
+    font-size: 25px;
+   
+}
+
+.price{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+}
+.buttons button:hover{
+    cursor: pointer;
+}
+.number{
+    height: 20px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.negative{
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.positive{
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.CS{
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.CS:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
